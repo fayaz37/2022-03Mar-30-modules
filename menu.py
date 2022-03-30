@@ -1,6 +1,6 @@
 def menu(*args):                # all arguments will be put in the tuple, "args"
     while True:
-        s = input(f'Enter choice (args): ').strip()
+        s = input(f'Enter choice {args}: ').strip()
         if s in args:               # is s a valid response? If so, return it
             return s
 
