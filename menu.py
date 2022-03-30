@@ -7,5 +7,6 @@ def menu(*args):                # all arguments will be put in the tuple, "args"
         print(f'Invalid choice {s}')
 
 
-user_choice = menu('a', 'b', 'c')
-print(f'You chose {user_choice}')
+if __name__ == '__main__':
+    user_choice = menu('a', 'b', 'c')
+    print(f'You chose {user_choice}')
