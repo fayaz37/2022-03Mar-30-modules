@@ -5,3 +5,7 @@ def menu(*args):                # all arguments will be put in the tuple, "args"
             return s
 
         print(f'Invalid choice {s}')
+
+
+user_choice = menu('a', 'b', 'c')
+print(f'You chose {user_choice}')
